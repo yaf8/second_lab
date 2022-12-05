@@ -25,7 +25,32 @@
     Private Sub ViewAllToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllToolStripMenuItem.Click
         Dim I As Integer
         For I = 0 To UBound(StudentRecord)
-            DataGridView1.Rows.Add(StudentRecord(I).IDNO, StudentRecord(I).Fname, StudentRecord(I).Sex, StudentRecord.(I).Dept)
+            DataGridView1.Rows.Add(StudentRecord(I).IDNO, StudentRecord(I).Fname, StudentRecord(I).Sex, StudentRecord(I).Dept)
+        Next
+    End Sub
+
+    Private Sub StudentBYIDNoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StudentBYIDNoToolStripMenuItem.Click
+        Dim id As String
+        Dim j As Integer
+        id = InputBox("Enter ID to SEARCH : ")
+
+        For j = 0 To UBound(StudentRecord)
+            If id = StudentRecord(j).IDNO Then
+                DataGridView2.Rows.Add(StudentRecord(j).IDNO, StudentRecord(j).Fname, StudentRecord(j).Sex, StudentRecord(j).Dept)
+            End If
+        Next
+
+    End Sub
+
+    Private Sub StudentBYFirstNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StudentBYFirstNameToolStripMenuItem.Click
+        Dim fName As String
+        Dim j As Integer
+        fName = InputBox("Enter First Name to SEARCH : ")
+
+        For j = 0 To UBound(StudentRecord)
+            If fName = StudentRecord(j).Fname Then
+                DataGridView2.Rows.Add(StudentRecord(j).IDNO, StudentRecord(j).Fname, StudentRecord(j).Sex, StudentRecord(j).Dept)
+            End If
         Next
     End Sub
 End Class

@@ -24,11 +24,11 @@ Partial Class Form8
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.StudentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AddNewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ViewAllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SearchToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StudentBYIDNoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StudentBYFirstNameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AddNewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ViewAllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -62,6 +62,18 @@ Partial Class Form8
         Me.StudentToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.StudentToolStripMenuItem.Text = "Student"
         '
+        'AddNewToolStripMenuItem
+        '
+        Me.AddNewToolStripMenuItem.Name = "AddNewToolStripMenuItem"
+        Me.AddNewToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
+        Me.AddNewToolStripMenuItem.Text = "Add New"
+        '
+        'ViewAllToolStripMenuItem
+        '
+        Me.ViewAllToolStripMenuItem.Name = "ViewAllToolStripMenuItem"
+        Me.ViewAllToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
+        Me.ViewAllToolStripMenuItem.Text = "View All"
+        '
         'SearchToolStripMenuItem
         '
         Me.SearchToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StudentBYIDNoToolStripMenuItem, Me.StudentBYFirstNameToolStripMenuItem})
@@ -80,18 +92,6 @@ Partial Class Form8
         Me.StudentBYFirstNameToolStripMenuItem.Name = "StudentBYFirstNameToolStripMenuItem"
         Me.StudentBYFirstNameToolStripMenuItem.Size = New System.Drawing.Size(194, 22)
         Me.StudentBYFirstNameToolStripMenuItem.Text = "Student BY First_Name"
-        '
-        'AddNewToolStripMenuItem
-        '
-        Me.AddNewToolStripMenuItem.Name = "AddNewToolStripMenuItem"
-        Me.AddNewToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AddNewToolStripMenuItem.Text = "Add New"
-        '
-        'ViewAllToolStripMenuItem
-        '
-        Me.ViewAllToolStripMenuItem.Name = "ViewAllToolStripMenuItem"
-        Me.ViewAllToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ViewAllToolStripMenuItem.Text = "View All"
         '
         'DataGridView1
         '
