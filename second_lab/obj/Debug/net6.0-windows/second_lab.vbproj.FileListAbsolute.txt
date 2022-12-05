@@ -43,3 +43,4 @@ C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windo
 C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.genruntimeconfig.cache
 C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\ref\second_lab.dll
 C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.Form7.resources
+C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.Form8.resources

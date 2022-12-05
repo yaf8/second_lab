@@ -61,4 +61,8 @@
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Form7.Show()
     End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Form8.Show()
+    End Sub
 End Class
