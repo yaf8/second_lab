@@ -1,4 +1,7 @@
 ﻿Public Class Form8
+
+
+
     Dim N As Integer
     Structure Student
         Dim IDNO As String
@@ -52,5 +55,9 @@
                 DataGridView2.Rows.Add(StudentRecord(j).IDNO, StudentRecord(j).Fname, StudentRecord(j).Sex, StudentRecord(j).Dept)
             End If
         Next
+    End Sub
+
+    Private Sub SearchNewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SearchNewToolStripMenuItem.Click
+        Form9.Show()
     End Sub
 End Class
