@@ -47,3 +47,9 @@ C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windo
 C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.Form9.resources
 C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.Dialog1.resources
 C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.Form10.resources
+C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.AddNewDepartment.resources
+C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.AddNewStaff.resources
+C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.AllStaffProfile.resources
+C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.DepartmentDetails.resources
+C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.DepartmentMemberStaff.resources
+C:\Users\HP\Documents\Acode\Windows\second_lab\second_lab\obj\Debug\net6.0-windows\second_lab.Form11.resources
